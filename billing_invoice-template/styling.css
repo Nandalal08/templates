@@ -1,0 +1,323 @@
+ #tax-invoice-template {
+     width: 70%;
+     margin: auto;
+     /* centers the template on the page */
+     font-family: sans-serif;
+     font-size: 12px;
+     border: 1px solid #ddd;
+     padding: 30px;
+ }
+
+ .invoice-header {
+     text-align: center;
+     font-size: 24px;
+ }
+
+ .invoice-table {
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ .invoice-table td,
+ .invoice-table th {
+     border: 1px solid black;
+     padding: 5px;
+ }
+
+ .invoice-total {
+     font-size: 18px;
+     font-weight: bold;
+     text-align: right;
+ }
+
+
+.company-details {
+  text-align: center; /* align all content to the left */
+}
+
+.company-details h1 {
+  text-align: center; /* center align only the h1 element */
+  margin-bottom: 2px; /* reduce space between h1 and h3 */
+}
+
+.company-details h3 {
+  margin-bottom: 30px; /* reduce space between h3 and mobile number */
+}
+
+
+
+
+
+ .invoice h1 {
+     text-align: center;
+     font-size: 24px;
+ }
+
+ .invoice p {
+     font-size: 16px;
+ }
+
+ .bill-to {
+     margin-top: 20px;
+ }
+
+ .bill-to h2 {
+     font-size: 18px;
+ }
+
+
+
+ .services1 {
+     width: 100%;
+     border-collapse: collapse;
+ }
+
+ .services1 th,
+ .services1 td {
+     padding: 5px;
+     text-align: center;
+ }
+
+ .services1 {
+     background-color: #A9A9A9;
+     font-weight: bold;
+ }
+
+
+ .services1 thead tr:last-child {
+     border-top: 10px solid black;
+ }
+
+
+
+ .services {
+     width: 100%;
+     border-collapse: collapse;
+ }
+
+ .services td {
+     padding: 7px;
+     text-align: left;
+ }
+
+
+
+
+ .services th {
+     background-color: #7D7C7C;
+     padding: 15px;
+     text-align: left;
+ }
+ .services td{
+padding: 15px;
+ }
+
+ .services tbody tr:nth-child(odd) {
+     background-color: #eee;
+ }
+
+ .services thead tr:last-child {
+     border-bottom: 1px solid black;
+ }
+
+ .services thead tr:last-child td {
+     font-weight: bold;
+ }
+
+.services th:last-child,
+.services td:last-child {
+    text-align: right;
+    margin-right: 20px; /* Align the last column (AMOUNT) to the right */
+}
+
+ 
+
+ .total {
+     font-size: 18px;
+     text-align: right;
+     margin-top: 20px;
+ }
+
+
+.ss{
+    display: flex;
+            justify-content: space-between;
+        
+}
+
+
+.account-table {
+    margin-top: 10px;
+    margin-right: -10px;
+    margin-left: 0px;
+    border-collapse: collapse;
+    width: 20%;
+}
+
+.account-table td {
+    margin-right: -10px;
+
+    margin-left: 20px;
+    padding: 10px;
+    text-align: right; /* Set text-align to right */
+}
+
+.account-table td:first-child {
+    text-align: left;
+
+}
+
+.account-table td:not(:last-child) {
+    border-right: none;
+}
+
+.account-table tr:nth-last-child(2) td {
+    text-align: right; /* Set text-align to right */
+    margin-right: -10px;
+
+}
+
+.account-table tr:nth-last-child(4) td {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    text-align: right; /* Set text-align to right */
+
+}
+
+.account-table tr:nth-last-child(4) td {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: right; /* Set text-align to right */
+    margin-right: -10px;
+
+}
+
+.account-table tr:nth-last-child(3) td {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    text-align: right; /* Set text-align to right */
+    margin-right: -10px;
+
+}
+
+
+ .services2 {
+     
+     width: 100%;
+     border-collapse: collapse;
+     border-top: 3px solid black;
+     border-bottom: 3px solid black;
+     margin-top: 50px;
+     /* Add margin for spacing */
+     margin-bottom: 20px;
+ }
+
+
+ .services2 th {
+     text-align: left;
+     font-size: medium;
+ }
+
+
+ .services2 td {
+     padding: 15px;
+     text-align: left;
+     margin-right: 10px;
+ }
+
+ .services2 th {
+
+     font-weight: bold;
+ }
+
+
+
+ .services2 td:nth-child(2) {
+     /* Target the second cell and hide its border */
+     border: 0;
+ }
+
+ .services2 tr {
+     /* Hide the remaining borders */
+     border-left: 0;
+     border-right: 0;
+ }
+
+
+ .subtotal {
+     text-align: right;
+     margin-bottom: 20px;
+ }
+
+ .terms-and-conditions {
+ top: 0;
+     
+ }
+
+ .terms-and-conditions ol {
+    float: left;
+     margin-left: 15px;
+     padding-left: 0;
+ }
+  .terms-and-conditions ol li{
+    
+    text-align: left;
+ }
+
+ .footer {
+     text-align: right;
+ }
+
+.total-amount-words-table {
+    width: 40%;
+    margin-top: 90px;
+    margin-right: 0px;
+    margin-left: auto; /* Move the table to the right */
+    border-collapse: collapse;
+}
+
+.total-amount-words-table td {
+    padding: 5px;
+    text-align: left;
+}
+
+.total-amount-words-table th {
+    background-color: #7D7C7C;
+    padding: 10px;
+    text-align: left;
+}
+
+.total-amount-words-table th:last-child,
+.total-amount-words-table td:last-child {
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.authorised-signatory {
+    margin-top: 320px;
+    text-align: right; /* Adjust as needed */
+}
+
+.authorised-signatory p {
+    margin: 0;
+    font-weight: bold;
+}
+
+ #amount1 {
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#tax1{
+    text-align: right;
+    margin-left: 15px;
+}
+
+#qty1{
+    text-align: right;
+    margin-right: 9px;
+}
